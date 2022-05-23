@@ -12,5 +12,3 @@ const listaDeNotas = [10, 6, 9, 2, 0]
 let arrayGeral = [listaDeCarros, listaDeCompradores, listaDeNotas];
 
 console.log(`${arrayGeral[1][4]} deseja comprar este carro ${arrayGeral[0][1]}, que tem a nota ${arrayGeral[2][1]}`)
-
-testes
