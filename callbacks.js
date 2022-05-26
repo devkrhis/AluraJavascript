@@ -1,6 +1,6 @@
 const nomes = ["Ana", "Ju", "Leo", "Paula"]
 
-nomes.forEach(ImprimeNomes) // foreach recebe como parametro uma function.
+nomes.forEach(ImprimeNomes) // foreach recebe como parametro uma function e pode estar fora da function e a function chamado ela
 
 function ImprimeNomes(nome){
     console.log(nome)
