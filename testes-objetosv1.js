@@ -16,7 +16,7 @@ const colecionador = {
 
 colecionador.EstadoDasFigurinhas.forEach(buscandoFigurinhas => console.log(buscandoFigurinhas))
 
-console.log(colecionador.dinheiroEmConta)
+console.log(`Quanto valia as figurinhas R$${colecionador.dinheiroEmConta}`)
 colecionador.guardandoDinheiro(100)
-console.log(colecionador.dinheiroEmConta)
+console.log(`Quanto está valendo as figurinhas atualmente R$${colecionador.dinheiroEmConta}`)
 
