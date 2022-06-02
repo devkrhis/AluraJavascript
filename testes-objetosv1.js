@@ -2,7 +2,7 @@ const colecionador = {
     nome: "Krhistopher",
     figurinhas: "3",
     data: "22/01/1998",
-    EstadoDasFigurinhas: "Conservado",
+    EstadoDasFigurinhas: ["Conservado","Depreciado","Estragado","Invalido"],
     utilizadores: [{
         nomeUtilizadores: ["Gabriel", "Jonathan", "Fidalgo", "Joatham"],
         quantidade: 4
@@ -14,6 +14,9 @@ const colecionador = {
 
 }
 
-colecionador.nomeUtilizadores.forEach(buscandoUtilizador => console.log(buscandoUtilizador))
+colecionador.EstadoDasFigurinhas.forEach(buscandoFigurinhas => console.log(buscandoFigurinhas))
 
-console.log(colecionador[0])
+console.log(colecionador.dinheiroEmConta)
+colecionador.guardandoDinheiro(100)
+console.log(colecionador.dinheiroEmConta)
+
