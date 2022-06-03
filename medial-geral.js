@@ -16,6 +16,8 @@ console.log(`Média da sala de Pythoon ${mediaSala(salaPythons)}`)
 // o acumulador é o que vai receber a quantidade dos valores, sendo assim declarei que quero que começe com 0, sendo assim vai fazer 0 + 7 + 8 e assim vai.
 // e depois vai ser dividido pela quantidade de vezes que foi pelo loop no return.
 
+//Caso você tenha mais de uma linha de instrução dentro de uma arrow function, as chaves {} e a palavra-chave return voltam a ser necessários.
+
 
 const notas = [10, 6.5, 8, 7]
 const media = notas.reduce((acum, atual) => atual + acum,0) / notas.length
