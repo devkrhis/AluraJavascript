@@ -31,7 +31,7 @@ for (let info in cliente){
         continue
     } else {
         relatorio += ` 
-        // cliente[info] aqui ele ta percorrendo tudo, como não tem como colocarr cliente.nome/cliente.email a gente coloca cliente[info] para percorrer o array e trazer o valor.
+        //cliente[info] aqui ele ta percorrendo tudo, como não tem como colocarr cliente.nome/cliente.email a gente coloca cliente[info] para percorrer o array e trazer o valor.
         ${info} ==> ${cliente[info]}
         `
     }
