@@ -49,6 +49,10 @@ function buscarMoradores (obj){
 }
 
 buscarMoradores(pessoas)
+
+if (Object.values(pessoas) === "Sim"){
+    const transformandoJson = JSON.stringify(pessoas)
+}
 console.log(Object.values(pessoas))
 
 const transformandoJson = JSON.stringify(pessoas)
