@@ -24,4 +24,3 @@ ClientePoupanca.prototype.depositarPoup = function(valor){ // estou acessando o 
 ju.depositarPoup(30) // aqui eu adicionei 30 reais
 
 console.log(ju.saldoPoup) // aqui eu imprimi o saldo.
-
