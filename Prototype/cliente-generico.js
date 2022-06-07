@@ -26,7 +26,6 @@ const gustavo = new Cliente("Gustavo", "123123123123", "gustavo@gmail.com", 500)
 
 console.log(gustavo)
 gustavo.depositar(300);
-
 console.log(gustavo.saldo)
 
 gustavo.saque(0.10);
